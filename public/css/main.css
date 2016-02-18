@@ -1,0 +1,333 @@
+/*header*/
+/*nav*/
+.navbar-nav {
+    letter-spacing: -4px;
+    display: inline-block;
+    width: 75%;
+}
+.container-fluid .navbar-nav li {
+    display: inline-block;
+    letter-spacing: 0;
+    width: 25%;
+    text-align: center;
+    border-bottom: 5px solid #FFFFFF;
+    padding: 15px 0 5px;
+}
+.container-fluid .main-page-menu-item:hover {
+    border-bottom: 5px solid #FB513C;
+}
+.container-fluid .news-menu-item:hover {
+    border-bottom: 5px solid #FF00F7;
+}
+.container-fluid .faqs-menu-item:hover {
+    border-bottom: 5px solid  #1bcf00;
+}
+.container-fluid .posts-menu-item:hover {
+    border-bottom: 5px solid #05D4DE;
+}
+.nav-login {
+    margin: 10px 0;
+    padding: 15px 0 5px;
+}
+/*end nav*/
+#logo-header {
+    background-image: url("/images/logo.png");
+    width: 80px;
+    height: 55px;
+    display: inline-block;
+    margin: 5px 40px 5px 10px;
+}
+.navbar-header {
+    width: 50%;
+}
+.navbar-header,
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.container-fluid .navbar-nav > li > a:hover {
+    text-decoration: none;
+}
+.header-bottom {
+    float: right;
+    margin: 20px 4px;
+    font-size: 18px;
+}
+.contacts-header {
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+.search,
+.search-form {
+    display: inline-block;
+}
+.search-form {
+    margin-right: 41px;
+}
+.search {
+    height: 34px;
+    vertical-align: middle;
+    border: 1px solid #000;
+}
+/*end header*/
+
+
+.main-image {
+    float: left;
+    padding: 3px 7px 3px 2px;
+}
+.public-excerpt {
+    text-align: justify;
+}
+.item-page {
+    background-color: #FFFFFF;
+    padding: 7px 15px;
+    margin: 0 0 10px;
+    border: 1px solid #E7E7E7;
+    border-radius: 3px;
+}
+.gallery-page {
+    clear: both;
+    padding: 8px 0;
+}
+
+.example_group img,
+.news-loop-img img,
+.news-home img,
+.products-loop img {
+    margin: auto;
+    display: block;
+}
+.item-gallery {
+    display: flex;
+    width: 83px;
+    height: 80px;
+}
+.loop-images {
+    display: inline-block;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.right-column {}
+.right-column,
+.left-column {
+    display: inline-block;
+    vertical-align: top;
+}
+.display-none {
+    display: none;
+}
+
+
+/*product page*/
+.images-product {
+    display: block;
+}
+/*end product page*/
+
+/*new page*/
+.news-img,
+.news-loop-exerpt {
+    display: inline-block;
+    vertical-align: top;    
+}
+.news-loop-exerpt {
+    width: 78%;
+    padding-left: 10px;
+    text-align: justify;
+}
+/*end new page*/
+
+/*footer*/
+.footer {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #e7e7e7;
+}
+.copirite {
+    margin: 25px 0;
+}
+footer .nav a {
+    border: 4px ridge #DF4E4E;
+    margin: 3px;
+    color: #880D0D;
+    font-size: 13px;
+    padding: 7px;
+}
+/*end footer*/
+
+
+/*admin*/
+.admin-left-menu {
+    float: left;
+    width: 17%;
+}
+.admin-left-menu ul {
+    padding-left: 0;
+}
+.admin-left-menu ul ul {
+    padding-left: 15px;
+}
+.admin-left-menu a {
+    color: #0c0446;
+}
+.admin-menu-item {
+    list-style: none;
+}
+.images-menu-items {
+    background: #fae7c5;
+    border-left: 5px solid #fae7c5;
+}
+.news-menu-items {
+    background: #F8BEF9;
+    border-left: 5px solid #F8BEF9;
+}
+.export-import-menu-items {
+    background: #FA84F2;
+    border-left: 5px solid #FA84F2;
+}
+.faqs-menu-items {
+    background: #C9FFA3;
+    border-left: 5px solid #C9FFA3;
+}
+.posts-menu-items {
+    background: #D0F2FF;
+    border-left: 5px solid #D0F2FF;
+}
+.auth-menu-items {
+    background: #FFBDB4;
+    border-left: 5px solid #FFBDB4;
+}
+.images-menu-items:hover {
+    border-left: 5px solid #FFA300;
+}
+.news-menu-items:hover {
+    border-left: 5px solid #FB00FF;
+}
+.export-import-menu-items:hover {
+    border-left: 5px solid #FB00FF;
+}
+.faqs-menu-items:hover {
+    border-left: 5px solid #69FF00;
+}
+.posts-menu-items:hover {
+    border-left: 5px solid #00B8FF;
+}
+.auth-menu-items:hover {
+    border-left: 5px solid #fc513c;
+}
+
+
+
+.admin-fixed-button {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+
+
+
+.new-upload-button {
+    position:relative;display: inline-block;
+}
+.new-upload-button input {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    filter: alpha(opacity=0);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity:0;
+    background-color:transparent;
+    color:transparent;
+}
+.gallery-panel{}
+.right-gallery {
+    float: right;
+    max-width: 315px;
+    height: 100%;
+    background: #F1F1F1;
+    border: 1px solid #B6B6B6;
+    padding: 0 10px;
+}
+.gallery {
+    padding: 10px 0;
+}
+.wrapp-big-file {
+    position: fixed;
+    bottom: 0;
+    z-index: 110;
+    width: 100%;
+    height: 100%;
+}
+.big-file {
+    margin: 18px auto;
+    height: 828px;
+    width: 584px;
+    z-index: 200;
+    position: relative;
+}
+.centred {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centred-login {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: -webkit-flex; /* For Safari */
+    -webkit-justify-content: center; /* For Safari */
+    -webkit-align-items: center; /* For Safari */
+}
+.modal-backdrop {
+    cursor: pointer;
+}
+
+
+
+
+.gallery.custom-state-active { background: #eee; }
+.gallery li {display: inline-block; width: 96px; text-align: center; }
+.slides .gallery li { float: none; display: inline-block; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img {cursor: pointer; }
+
+
+.admin-title,
+.admin-slug {
+    display: inline-block;
+    border: 1px solid #B6B6B6;
+    border-radius: 2px;
+}
+.admin-title input,
+.admin-slug input {
+    border: none;
+}
+.admin-title label,
+.admin-slug label {
+    display: block;
+    background-image: linear-gradient(to bottom,#f5f5f5,#cfd1cf);
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+}
+.attachment {
+    display: inline-block;
+}
+/*end admin*/
