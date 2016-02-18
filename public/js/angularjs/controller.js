@@ -94,11 +94,22 @@ app.controller('catsListCtrl', function($scope, $http) {
         $scope.file = {};
         $scope.pageFiles.splice(index, 1)
     }
-    $scope.bigImage = function(index, event) {
-        console.log(event, $scope.$event);
+    $scope.bigImage = function(index) {
         $scope.imageDisplay = $scope.imageDisplay === true ? false: true;
         $scope.imageSize2 = index;
+
+        console.log(index);
     }
+
+
+    $scope.increaseFile = function(obj) {
+        console.log(obj);
+    }
+
+
+
+
+
 
 
 
@@ -111,6 +122,7 @@ app.controller('catsListCtrl', function($scope, $http) {
         var file2 = input.files;
         var objectFiles = new FileReader();
         objectFiles.readAsDataURL(file);
+        console.log(objectFiles, file2);
         $http.post('/admin/files/upload', { objectFiles }).success(function(response) {
             $scope.newFiles = response;
         });

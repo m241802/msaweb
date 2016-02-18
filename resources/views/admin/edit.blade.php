@@ -32,7 +32,7 @@
             <ul class="gallery">
                 <li id="{{ file.id }}" ng-repeat="file in pageFiles | filter:query">
                     <div>
-                        <img ng-click="bigImage($index, 'pageFile')" ng-src="{{ file.url }}" alt="{{ file.title }}" data-toggle="modal" data-target="#bigImage" class="img-thumbnail">
+                        <img ng-click="bigImage($index)" ng-src="{{ file.url }}" alt="{{ file.title }}" data-toggle="modal" data-target="#bigImage" class="img-thumbnail">
                     </div>
                     <input class="id-file" name="images[]" type="hidden" value="{{ file.id }}">
                     <span class="in-gallery" ng-click="removeItem($index)">-</span>
